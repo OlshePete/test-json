@@ -1,0 +1,75 @@
+{
+  "orders": [
+    {
+      "route": {
+        "route": "shchery"
+      },
+      "date": "01/17/2023 19:13",
+      "createdAt": "19:13:49, 17.0.2023",
+      "status": {
+        "text": "payment is expected"
+      },
+      "agent": {
+        "id": "777",
+        "name": "Алексей Колесников",
+        "phone": "+7 999 921 92 92",
+        "email": "baseagent@ya.ru",
+        "avatar": "https://cs6.pikabu.ru/avatars/1724/v1724973-2109843858.jpg"
+      },
+      "user": {
+        "name": "Семён Петрович",
+        "phone": "8 (922) 332 12 12",
+        "email": "sema@ya.ru",
+        "createdAt": "19:10:2, 17.0.2023",
+        "id": 2
+      },
+      "id": 0
+    }
+  ],
+  "customers": [
+    {
+      "id": 0,
+      "name": "Валерий",
+      "phone": "8 (991) 544 54 23",
+      "email": "antonka@ya.ru",
+      "agentId": 0
+    }
+  ],
+  "agents": [
+    {
+      "id": 0,
+      "name": "Антон Геннадьевич",
+      "phone": "8 (992) 223 21 12",
+      "email": "antonka@ya.ru",
+      "createdAt": "19:10:42, 17.0.2023"
+    }
+  ],
+  "boats": [
+    {
+      "id": 0,
+      "name": "Большая берта",
+      "capacity": 6,
+      "queue": 1,
+      "createdAt": "16:57:28, 19.0.2023",
+      "status": "в резерве",
+      "isActive": true
+    }
+  ],
+  "news": [
+    {
+      "id":0,
+      "date":"01/17/2023",
+      "title":"Заголовок первой новости",
+      "text":"",
+      "image":""
+    }
+  ],
+  "routes": [
+    {
+      "id":0,
+      "name":"Шхеры",
+      "time":180,
+      "price":3000
+    }
+  ]
+}
