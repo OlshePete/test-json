@@ -1,14 +1,14 @@
 {
   "orders": [
     {
-    "id": 0,
-    "user": 0,
-    "route": 0,
-    "boat": 0,
-    "status": "payment is expected",
-    "date": "19:13:49, 17.0.2023",
-    "createdAt": "19:13:49, 17.0.2023",
-    "agent": 0
+      "id": 0,
+      "user": 0,
+      "agent": 0,
+      "route": 0,
+      "boat": 0,
+      "status": "payment is expected",
+      "date": "19:13:49, 17.0.2023",
+      "createdAt": "19:13:49, 17.0.2023"
     }
   ],
   "users": [
@@ -17,101 +17,135 @@
       "name": "Валерий",
       "phone": "8 (991) 544 54 23",
       "email": "antonka@ya.ru",
-      "agentId": 0
+      "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
+      "createdAt": "16:57:28, 19.0.2023"
     },
     {
       "id": 1,
-      "name": "Людмила",
-      "phone": "8 (921) 111 55 66",
-      "email": "lyda@ya.ru",
-      "agentId": 0
-    },
-    {
-      "id": 2,
-      "name": "Александр",
-      "phone": "8 (961) 258 85 85",
-      "email": "sashka@ya.ru",
-      "agentId": 0
+      "name": "Антуан",
+      "phone": "8 (991) 544 54 23",
+      "email": "antonka@ya.ru",
+      "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
+      "createdAt": "16:57:28, 19.0.2023"
     }
   ],
   "agents": [
     {
       "id": 0,
-      "name": "Антон Геннадьевич",
-      "phone": "8 (992) 223 21 12",
+      "name": "Криштиан",
+      "phone": "8 (991) 544 54 23",
       "email": "antonka@ya.ru",
-      "createdAt": "19:10:42, 17.0.2023"
+      "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
+      "createdAt": "16:57:28, 19.0.2023"
     },
     {
       "id": 1,
-      "name": "Семен Попов",
-      "phone": "8 (921) 321 22 18",
-      "email": "semen@ya.ru",
-      "createdAt": "19:10:42, 17.0.2023"
+      "name": "Месси",
+      "phone": "8 (991) 544 54 23",
+      "email": "antonka@ya.ru",
+      "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
+      "createdAt": "16:57:28, 19.0.2023"
     }
   ],
   "boats": [
     {
       "id": 0,
       "name": "Вихрь",
+      "image": "https://www.cruisedeck.de/wp-content/uploads/CROWN-IRIS-002.jpg",
       "capacity": 6,
-      "queue": 1,
       "createdAt": "16:57:28, 19.0.2023",
-      "status": "в резерве",
+      "desc": "Большая мощная лодка",
       "isActive": true
     },
     {
       "id": 1,
       "name": "Шторм",
+      "image": "https://www.cruisedeck.de/wp-content/uploads/CROWN-IRIS-002.jpg",
       "capacity": 6,
-      "queue": 1,
       "createdAt": "16:57:28, 19.0.2023",
-      "status": "в резерве",
+      "desc": "Большая мощная лодка",
       "isActive": true
     },
     {
       "id": 2,
       "name": "Стрела",
+      "image": "https://www.cruisedeck.de/wp-content/uploads/CROWN-IRIS-002.jpg",
       "capacity": 6,
-      "queue": 1,
       "createdAt": "16:57:28, 19.0.2023",
-      "status": "в резерве",
+      "desc": "Большая мощная лодка",
       "isActive": true
     }
   ],
   "news": [
     {
-      "id":0,
-      "date":"01/17/2023",
-      "title":"Заголовок первой новости",
-      "text":"",
-      "image":""
+      "id": 0,
+      "createdAt": "01/17/2023",
+      "title": "Заработала бета версия",
+      "text": "В течение последних нескольких лет, в городе Оулу, Финляндия является одним из самых популярных туристических направлений в стране. Оулу расположен на берегах озера Суванто, которое также является крупнейшим в Финляндии. Город находится на пересечении многих международных транспортных путей и имеет большое количество международных аэропортов. Это один из крупнейших городов и портов Финляндии, а также самый старый город страны.",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/09514a66831951.5b23a472342ef.png",
+      "author": 1
     }
   ],
   "routes": [
     {
-      "id":0,
-      "name":"Шхеры",
-      "time":160,
-      "price":3000
+      "id": 0,
+      "name": "Шхеры",
+      "length": 120,
+      "price": 3000,
+      "time": 160,
+      "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
+      "isActive": true,
+      "images": [
+        "https://album.mediaset.es/eimg/2019/10/25/WCQnqgYEHrn7vkrMFo1CB4.jpg",
+        "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
+        "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
+      ],
+      "createdAt": "16:57:28, 19.0.2023"
     },
     {
-      "id":1,
-      "name":"Валаам",
-      "time":180,
-      "price":3000
+      "id": 1,
+      "name": "Валаам",
+      "length": 120,
+      "price": 3000,
+      "time": 160,
+      "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
+      "isActive": true,
+      "images": [
+        "https://album.mediaset.es/eimg/2019/10/25/WCQnqgYEHrn7vkrMFo1CB4.jpg",
+        "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
+        "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
+      ],
+      "createdAt": "16:57:28, 19.0.2023"
     },
     {
-      "id":2,
-      "name":"Комплекс",
-      "time":240,
-      "price":4000
+      "id": 2,
+      "name": "Валаам и Шхеры",
+      "length": 120,
+      "price": 3000,
+      "time": 160,
+      "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
+      "isActive": true,
+      "images": [
+        "https://album.mediaset.es/eimg/2019/10/25/WCQnqgYEHrn7vkrMFo1CB4.jpg",
+        "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
+        "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
+      ],
+      "createdAt": "16:57:28, 19.0.2023"
     },
     {
-      "id":3,
-      "name":"Зимняя",
-      "time":120,
-      "price":4000
+      "id": 3,
+      "name": "Зимняя",
+      "length": 120,
+      "price": 3000,
+      "time": 160,
+      "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
+      "isActive": true,
+      "images": [
+        "https://album.mediaset.es/eimg/2019/10/25/WCQnqgYEHrn7vkrMFo1CB4.jpg",
+        "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
+        "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
+      ],
+      "createdAt": "16:57:28, 19.0.2023"
     }
   ]
 }
