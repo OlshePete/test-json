@@ -1,14 +1,15 @@
 {
   "orders": [
     {
-      "id": 0,
-      "user": 0,
-      "agent": 0,
-      "route": 0,
-      "boat": 0,
-      "status": "payment is expected",
-      "date": "19:13:49, 17.0.2023",
-      "createdAt": "19:13:49, 17.0.2023"
+    "id": 0,
+    "user": 0,
+    "route": 0,
+    "boat": 0,
+    "status": "payment is expected",
+    "date": "19:13:49, 17.01.2023",
+    "createdAt": "19:13:49, 17.01.2023",
+    "desc":"комментарий к заказу",
+    "agent": 0
     }
   ],
   "users": [
@@ -18,7 +19,7 @@
       "phone": "8 (991) 544 54 23",
       "email": "antonka@ya.ru",
       "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
-      "createdAt": "16:57:28, 19.0.2023"
+      "createdAt": "16:57:28, 19.01.2023"
     },
     {
       "id": 1,
@@ -26,7 +27,7 @@
       "phone": "8 (991) 544 54 23",
       "email": "antonka@ya.ru",
       "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
-      "createdAt": "16:57:28, 19.0.2023"
+      "createdAt": "16:57:28, 19.01.2023"
     }
   ],
   "agents": [
@@ -35,16 +36,14 @@
       "name": "Криштиан",
       "phone": "8 (991) 544 54 23",
       "email": "antonka@ya.ru",
-      "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
-      "createdAt": "16:57:28, 19.0.2023"
+      "createdAt": "19:10:42, 17.01.2023"
     },
     {
       "id": 1,
-      "name": "Месси",
-      "phone": "8 (991) 544 54 23",
-      "email": "antonka@ya.ru",
-      "avatar": "https://medias.spotern.com/spots/w640/6/6933-1532336916.jpg",
-      "createdAt": "16:57:28, 19.0.2023"
+      "name": "Семен Попов",
+      "phone": "8 (921) 321 22 18",
+      "email": "semen@ya.ru",
+      "createdAt": "19:10:42, 17.01.2023"
     }
   ],
   "boats": [
@@ -53,8 +52,9 @@
       "name": "Вихрь",
       "image": "https://www.cruisedeck.de/wp-content/uploads/CROWN-IRIS-002.jpg",
       "capacity": 6,
-      "createdAt": "16:57:28, 19.0.2023",
+      "createdAt": "16:57:28, 19.01.2023",
       "desc": "Большая мощная лодка",
+      "priority":1,
       "isActive": true
     },
     {
@@ -62,8 +62,9 @@
       "name": "Шторм",
       "image": "https://www.cruisedeck.de/wp-content/uploads/CROWN-IRIS-002.jpg",
       "capacity": 6,
-      "createdAt": "16:57:28, 19.0.2023",
+      "createdAt": "16:57:28, 19.01.2023",
       "desc": "Большая мощная лодка",
+      "priority":2,
       "isActive": true
     },
     {
@@ -71,8 +72,9 @@
       "name": "Стрела",
       "image": "https://www.cruisedeck.de/wp-content/uploads/CROWN-IRIS-002.jpg",
       "capacity": 6,
-      "createdAt": "16:57:28, 19.0.2023",
+      "createdAt": "16:57:28, 19.01.2023",
       "desc": "Большая мощная лодка",
+      "priority":3,
       "isActive": true
     }
   ],
@@ -91,8 +93,8 @@
       "id": 0,
       "name": "Шхеры",
       "length": 120,
-      "price": 3000,
-      "time": 160,
+      "price": 2100,
+      "time": 120,
       "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
       "isActive": true,
       "images": [
@@ -100,37 +102,37 @@
         "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
         "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
       ],
-      "createdAt": "16:57:28, 19.0.2023"
+      "createdAt": "16:57:28, 19.01.2023"
     },
     {
       "id": 1,
       "name": "Валаам",
       "length": 120,
-      "price": 3000,
-      "time": 160,
-      "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
+      "price": 3500,
+      "time": 300,
+      "desc": "Валаам - остров в северной части Ладожского озера, самый большой в составе Валаамского архипелага.Кроме него в архипелаг входит более полусотни островов. Длина Валаама – чуть менее 10 километров, ширина – около восьми километров. От Сортавалы по воде до архипелага – 42 километра. На острове расположен посёлок Валаам, входящий в Сортавальское городское поселение, памятник русского монастыря - Валаамский ставропигиальный мужской монастырь.",
       "isActive": true,
       "images": [
         "https://album.mediaset.es/eimg/2019/10/25/WCQnqgYEHrn7vkrMFo1CB4.jpg",
         "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
         "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
       ],
-      "createdAt": "16:57:28, 19.0.2023"
+      "createdAt": "16:57:28, 19.01.2023"
     },
     {
       "id": 2,
       "name": "Валаам и Шхеры",
       "length": 120,
-      "price": 3000,
-      "time": 160,
-      "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
+      "price": 4100,
+      "time": 360,
+      "desc": "Часовая прогулка на катере, и вы окажетесь в чудном месте- на о.Валааме. Время пребывания на острове — 3 часа. Это может быть самостоятельная прогулка по острову или с нашим экскурсоводом. Далее вас ждёт прогулка на катере по внутренним озёрам Валаама и Ладожским Шхерам, с 30 минутной остановкой на о.Хонкасало.",
       "isActive": true,
       "images": [
         "https://album.mediaset.es/eimg/2019/10/25/WCQnqgYEHrn7vkrMFo1CB4.jpg",
         "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
         "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
       ],
-      "createdAt": "16:57:28, 19.0.2023"
+      "createdAt": "16:57:28, 19.01.2023"
     },
     {
       "id": 3,
@@ -138,14 +140,32 @@
       "length": 120,
       "price": 3000,
       "time": 160,
-      "desc": "Создаваемый национальный парк в Лахденпохском, Сортавальском и Питкярантском районах Республики Карелия на северном и северо-западном побережье Ладожского озера, создается для сохранения уникальных природных комплексов озёрных шхер.",
+      "desc": "Для вас экскурсионные туры по Ладоге на аэросанях и аэролодке. Выбирайте поездку на 1 или несколько дней.",
       "isActive": true,
       "images": [
         "https://album.mediaset.es/eimg/2019/10/25/WCQnqgYEHrn7vkrMFo1CB4.jpg",
         "https://vsegda-pomnim.com/uploads/posts/2022-03/1648751187_17-vsegda-pomnim-com-p-ladoga-ozero-foto-17.jpg",
         "https://img5.goodfon.ru/wallpaper/nbig/a/73/ladoga-ladozhskoe-ozero-priroda-peizazh-shkhery-kamni-leto-d.jpg"
       ],
-      "createdAt": "16:57:28, 19.0.2023"
+      "createdAt": "16:57:28, 19.01.2023"
+    }
+  ],
+  "time_spots":[
+    {
+      "id":0,
+      "time":"9.00"
+    },
+    {
+      "id":1,
+      "time":"12.00"
+    },
+    {
+      "id":2,
+      "time":"16.00"
+    },
+    {
+      "id":3,
+      "time":"19.00"
     }
   ]
 }
